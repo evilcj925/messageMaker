@@ -5,7 +5,7 @@ const styleOfWhisky = () => {
     return picker;
 };
 
-//Next, we will populate some an object with various individual bottles of the styles of whisky
+//Next, we will populate an object with various individual bottles of the styles of whisky
 
 const whiskies = {
     scotch: ['Glenfiddich Fire and Cane', 'Highland Park 25', 'Compass Box Hedonism', 'Glenfarclas 15', 'Macallan Gold'],
