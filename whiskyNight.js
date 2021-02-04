@@ -1,7 +1,7 @@
 //We will start with a function to determine the style of whisk(e)y that we will have. 
 const styleOfWhisky = () => {
     const styles = ['scotch', 'bourbon', 'canadian', 'world'];
-    const picker = styles[Math.floor(Math.random() * 4)];
+    const picker = styles[Math.floor(Math.random() * styles.length)];
     return picker;
 };
 
